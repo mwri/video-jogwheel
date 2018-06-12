@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "6"
+dist: trusty
+sudo: required
+addons:
+  chrome: stable
+before_install:
+  - export CHROME_BIN=chromium-browser
+  - if [[ `npm -v` = 2* ]]; then npm i -g npm@3; fi
+script:
+  - ./node_modules/.bin/grunt build
