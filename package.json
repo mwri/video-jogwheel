@@ -1,7 +1,7 @@
 {
   "name": "video-jogwheel",
   "description": "HTML5 video addon for rapidly jogging the video back and forth with the mouse wheel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Michael Wright",
     "email": "mjw@methodanalysis.com"
